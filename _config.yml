@@ -21,7 +21,7 @@ repository               : "sorui-qin/sorui-qin.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "doraemon.png"
   name             : "Rui Qin"
   pronouns         : "he/him"  
   bio              : "Planning to do research without me, huh?"
