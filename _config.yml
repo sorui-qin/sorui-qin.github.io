@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "doraemon.png"
+  avatar           : "profile.png"
   name             : "Rui Qin"
   pronouns         : "he/him"  
   bio              : "Since don't have a satisfactory photo yet, so I replace with an image of Doraemon, saying "Planning to do research without me, huh?".
