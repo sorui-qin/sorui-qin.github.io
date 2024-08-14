@@ -40,9 +40,9 @@ Jike Wang<sup>#</sup>, **Rui Qin<sup>#</sup>**, Mingyang Wang<sup>#</sup>, Meiji
 
 ![](/images/tbsd_a_2295974_uf0001_c.jpg)  
 
-    **Rui Qin<sup>#</sup>**, Hao Zhang, Weifeng Huang, Zhenglin Shao, Jinping Lei\*  
-    ***Journal of Biomolecular Structure & Dynamics*. 2023**  
-    [Paper](http://dx.doi.org/10.1080/07391102.2023.2295974) | [code](https://github.com/sorui-qin/A2BAR_Antagonists_Design)    
+  **Rui Qin<sup>#</sup>**, Hao Zhang, Weifeng Huang, Zhenglin Shao, Jinping Lei\*  
+  ***Journal of Biomolecular Structure & Dynamics*. 2023**  
+  [Paper](http://dx.doi.org/10.1080/07391102.2023.2295974) | [code](https://github.com/sorui-qin/A2BAR_Antagonists_Design)    
 
 
 <h2>📋 Virtual Screening or Molecular Dynamics</h2>
