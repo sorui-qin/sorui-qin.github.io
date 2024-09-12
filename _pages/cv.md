@@ -9,9 +9,9 @@ redirect_from:
 
 Education
 ======
-* M.S. in AI Pharmacy, Zhejiang University, 2023-2026 (expected)
-  * Future plan: PhD. in AI Pharmacy, Zhejiang University, 2023-2028
-* B.S. in Pharmaceutical Sciences, Sun Yat-sen University, 2019-2023
+* Ph.D in Medicinal Chemistry, Zhejiang University, 2023.9-2028.6 (expected)
+  * Postgraduate program in AI Pharmacy, Zhejiang University, 2023.9-2025.1
+* B.S. in Pharmaceutical Sciences, Sun Yat-sen University, 2019.9-2023.6
 
 Work experience
 ======

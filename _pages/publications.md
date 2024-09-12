@@ -34,7 +34,7 @@ author_profile: true
 ![](/images/Token-Mol.jpg)  
 
   Jike Wang<sup>#</sup>, **Rui Qin<sup>#</sup>**, Mingyang Wang<sup>#</sup>, Meijing Fang, Yangyang Zhang, Yuchen Zhu, Qun Su, Qiaolin Gou, Chao Shen, Odin Zhang, Zhenxing Wu, Dejun Jiang, Xujun Zhang, Huifeng Zhao, Jingxuan Ge, Zhourui Wu, Yu Kang\*, Chang-Yu Hsieh\*, Tingjun Hou\*  
-    ***Nature Machine Intelliengece*, Submitted. 2024**  
+    ***Nature Communications*, Under review. 2024**  
     [arXiv](https://arxiv.org/abs/2407.07930) | [code](https://github.com/jkwang93/Token-Mol)  
 
 * **3D Molecular Pocket-based Generation with Token-only Large Language Model**
@@ -42,7 +42,7 @@ author_profile: true
 ![](/images/3DSMILESGPT.png)  
 
   Jike Wang<sup>#</sup>, Hao Luo<sup>#</sup>, **Rui Qin<sup>#</sup>**, Mingyang Wang, Meijing Fang, Odin Zhang, Qiaolin Gou, Qun Su, Chao Shen, Ziyi You, Xiaozhe Wan, Liwei Liu\*, Chang-Yu Hsieh\*, Tingjun Hou\*, Yu Kang\*  
-    ***Nature Computational Science*, Submitted. 2024**  
+    ***Nature Machine Intelligence*, Submitted. 2024**  
     [ChemRxiv](http://dx.doi.org/10.26434/chemrxiv-2024-0ckgt) | [code](https://github.com/ashipiling/GPT_3DSMILES)
 
 <p id="2"></p> 
