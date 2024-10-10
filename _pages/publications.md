@@ -42,7 +42,7 @@ author_profile: true
 ![](/images/3DSMILESGPT.png)  
 
   Jike Wang<sup>#</sup>, Hao Luo<sup>#</sup>, **Rui Qin<sup>#</sup>**, Mingyang Wang, Meijing Fang, Odin Zhang, Qiaolin Gou, Qun Su, Chao Shen, Ziyi You, Xiaozhe Wan, Liwei Liu\*, Chang-Yu Hsieh\*, Tingjun Hou\*, Yu Kang\*  
-    ***Nature Machine Intelligence*, Submitted. 2024**  
+    ***Chemical Science*, Under review. 2024**  
     [ChemRxiv](http://dx.doi.org/10.26434/chemrxiv-2024-0ckgt) | [code](https://github.com/ashipiling/GPT_3DSMILES)
 
 <p id="2"></p> 
