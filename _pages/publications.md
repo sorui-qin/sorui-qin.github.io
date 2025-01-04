@@ -34,7 +34,7 @@ author_profile: true
 ![](/images/Token-Mol.jpg)  
 
   Jike Wang<sup>#</sup>, **Rui Qin<sup>#</sup>**, Mingyang Wang<sup>#</sup>, Meijing Fang, Yangyang Zhang, Yuchen Zhu, Qun Su, Qiaolin Gou, Chao Shen, Odin Zhang, Zhenxing Wu, Dejun Jiang, Xujun Zhang, Huifeng Zhao, Jingxuan Ge, Zhourui Wu, Yu Kang\*, Chang-Yu Hsieh\*, Tingjun Hou\*  
-    ***Nature Communications*, Under review. 2024**  
+    ***Nature Communications*,** Under review. **2024**  
     [arXiv](https://arxiv.org/abs/2407.07930) | [code](https://github.com/jkwang93/Token-Mol)  
 
 * **3D Molecular Pocket-based Generation with Token-only Large Language Model**
@@ -42,7 +42,7 @@ author_profile: true
 ![](/images/3DSMILESGPT.png)  
 
   Jike Wang<sup>#</sup>, Hao Luo<sup>#</sup>, **Rui Qin<sup>#</sup>**, Mingyang Wang, Meijing Fang, Odin Zhang, Qiaolin Gou, Qun Su, Chao Shen, Ziyi You, Xiaozhe Wan, Liwei Liu\*, Chang-Yu Hsieh\*, Tingjun Hou\*, Yu Kang\*  
-    ***Chemical Science*, Accepted. 2024**  
+    ***Chemical Science*,** **16**, 637–648. **2025**  
     [Paper](https://doi.org/10.1039/D4SC06864E) | [ChemRxiv](http://dx.doi.org/10.26434/chemrxiv-2024-0ckgt) | [code](https://github.com/ashipiling/GPT_3DSMILES)
 
 <p id="2"></p> 
@@ -65,6 +65,6 @@ author_profile: true
 
 ![](/images/images_medium_jm2c00101_0015.gif)  
 
-Shuhao Liu<sup>#</sup>, Wen Ding<sup>#</sup>, Weifeng Huang<sup>#</sup>, Zhijing Zhang, Yinfeng Guo, Qiyi Zhang, Linna Wu, Yukai Li, **Rui Qin**, Jiahao Li, Taoda Shi\*, Xiaolei Zhang\*, Jinping Lei\*, Wenhao Hu\*
-  ***Journal of Medicinal Chemistry*. 65(13), 8933–8947. 2022**  
+Shuhao Liu<sup>#</sup>, Wen Ding<sup>#</sup>, Weifeng Huang<sup>#</sup>, Zhijing Zhang, Yinfeng Guo, Qiyi Zhang, Linna Wu, Yukai Li, **Rui Qin**, Jiahao Li, Taoda Shi\*, Xiaolei Zhang\*, Jinping Lei\*, Wenhao Hu\*  
+  ***Journal of Medicinal Chemistry*,**  **65**(13), 8933–8947. **2022**  
   [Paper](https://doi.org/10.1021/acs.jmedchem.2c00101)
