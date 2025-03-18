@@ -34,7 +34,7 @@ author_profile: true
 ![](/images/Token-Mol.jpg)  
 
   Jike Wang<sup>#</sup>, **Rui Qin<sup>#</sup>**, Mingyang Wang<sup>#</sup>, Meijing Fang, Yangyang Zhang, Yuchen Zhu, Qun Su, Qiaolin Gou, Chao Shen, Odin Zhang, Zhenxing Wu, Dejun Jiang, Xujun Zhang, Huifeng Zhao, Jingxuan Ge, Zhourui Wu, Yu Kang\*, Chang-Yu Hsieh\*, Tingjun Hou\*  
-    ***Nature Communications*,** Under review. **2024**  
+    ***Nature Communications*,** Principle Accept,. **2025**  
     [arXiv](https://arxiv.org/abs/2407.07930) | [code](https://github.com/jkwang93/Token-Mol)  
 
 * **3D Molecular Pocket-based Generation with Token-only Large Language Model**
