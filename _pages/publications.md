@@ -1,3 +1,8 @@
+<!--
+ * @Date: 2025-12-26 19:14:30
+ * @LastEditors: Rui Qin
+ * @LastEditTime: 2025-12-26 19:23:25
+-->
 ---
 layout: archive
 title: "Publications"
@@ -48,6 +53,14 @@ author_profile: true
 <p id="2"></p> 
 
 <h2>📋 Generative Models in Drug Design</h2>
+
+* **Revisiting Target-Aware *de novo* Molecular Generation with TarPass: Between Rational Design and Texas Sharpshooter**
+
+![](/images/Tarpass.jpg)  
+
+  **Rui Qin<sup>#</sup>**, Zijie Chen, Yurong Li, Meijing Fang, Longji Shen, Yilong Su, Odin Zhang, Qinghang Wang, Qun Su, Jike Wang\*, Tingjun Hou\*, Yu Kang\*  
+  ***Comming Soon***. **2026**  
+  [code](https://github.com/sorui-qin/TarPass)    
 
 * **Deep Learning-based Design and Screening of Benzimidazole-pyrazine Derivatives as Adenosine A<sub>2B</sub> Receptor Antagonists**
 
