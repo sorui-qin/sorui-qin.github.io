@@ -1,8 +1,3 @@
-<!--
- * @Date: 2025-12-26 19:14:30
- * @LastEditors: Rui Qin
- * @LastEditTime: 2025-12-26 19:23:25
--->
 ---
 layout: archive
 title: "Publications"
