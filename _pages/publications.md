@@ -1,3 +1,8 @@
+<!--
+ * @Date: 2025-12-26 19:14:30
+ * @LastEditors: Rui Qin
+ * @LastEditTime: 2025-12-27 20:32:02
+-->
 ---
 layout: archive
 title: "Publications"
@@ -53,9 +58,9 @@ author_profile: true
 
 ![](/images/Tarpass.jpg)  
 
-  **Rui Qin<sup>#</sup>**, Zijie Chen, Yurong Li, Meijing Fang, Longji Shen, Yilong Su, Odin Zhang, Qinghang Wang, Qun Su, Jike Wang\*, Tingjun Hou\*, Yu Kang\*  
+  **Rui Qin<sup>#</sup>**, Zijie Chen<sup>#</sup>, Yurong Li, Meijing Fang, Longji Shen, Yilong Su, Odin Zhang, Qinghang Wang, Qun Su, Jike Wang\*, Tingjun Hou\*, Yu Kang\*  
   ***Comming Soon***. **2026**  
-  [code](https://github.com/sorui-qin/TarPass)    
+  [ChemRxiv](https://doi.org/10.26434/chemrxiv-2026-dhdqk) | [code](https://github.com/sorui-qin/TarPass)    
 
 * **Deep Learning-based Design and Screening of Benzimidazole-pyrazine Derivatives as Adenosine A<sub>2B</sub> Receptor Antagonists**
 
