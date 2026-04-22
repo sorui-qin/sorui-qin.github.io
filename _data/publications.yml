@@ -1,22 +1,51 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "Token-Mol 1.0: Tokenized drug design with large language model"
+    authors: 'Jike Wang<sup>#</sup>, <strong>Rui Qin<sup>#</sup></strong>, Mingyang Wang<sup>#</sup>, Meijing Fang, Yangyang Zhang, Yuchen Zhu, Qun Su, Qiaolin Gou, Chao Shen, Odin Zhang, Zhenxing Wu, Dejun Jiang, Xujun Zhang, Huifeng Zhao, Jingxuan Ge, Zhourui Wu, Yu Kang*, Chang-Yu Hsieh*, Tingjun Hou*'
+    conference_short: Nat. Commun.
+    conference: '<strong>Nature Communications</strong>, 16: 4416, 2025.'
+    pdf: https://www.nature.com/articles/s41467-025-59628-y
+    code: https://github.com/jkwang93/Token-Mol
+    image: ./assets/img/Token-Mol.jpg
+    notes:
+    others: '<a href="https://arxiv.org/abs/2407.07930" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">arXiv</a>'
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "3D Molecular Pocket-based Generation with Token-only Large Language Model"
+    authors: 'Jike Wang<sup>#</sup>, Hao Luo<sup>#</sup>, <strong>Rui Qin<sup>#</sup></strong>, Mingyang Wang, Meijing Fang, Odin Zhang, Qiaolin Gou, Qun Su, Chao Shen, Ziyi You, Xiaozhe Wan, Liwei Liu*, Chang-Yu Hsieh*, Tingjun Hou*, Yu Kang*'
+    conference_short: Chem. Sci.
+    conference: '<strong>Chemical Science</strong>, 16, 637-648, 2025.'
+    pdf: https://doi.org/10.1039/D4SC06864E
+    code: https://github.com/ashipiling/GPT_3DSMILES
+    image: ./assets/img/3DSMILESGPT.png
+    notes:
+    others: '<a href="http://dx.doi.org/10.26434/chemrxiv-2024-0ckgt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">ChemRxiv</a>'
+
+  - title: "Revisiting Target-Aware de novo Molecular Generation with TarPass: Between Rational Design and Texas Sharpshooter"
+    authors: '<strong>Rui Qin<sup>#</sup></strong>, Zijie Chen<sup>#</sup>, Yurong Li, Meijing Fang, Longji Shen, Yilong Su, Odin Zhang, Qinghang Wang, Qun Su, Jike Wang*, Tingjun Hou*, Yu Kang*'
+    conference_short: Adv. Sci.
+    conference: '<strong>Advanced Science</strong>, Accepted, 2026.'
+    pdf: https://doi.org/10.26434/chemrxiv-2026-dhdqk
+    code: https://github.com/sorui-qin/TarPass
+    image: ./assets/img/Tarpass.jpg
+    notes:
+    others:
+
+  - title: "Deep Learning-based Design and Screening of Benzimidazole-pyrazine Derivatives as Adenosine A<sub>2B</sub> Receptor Antagonists"
+    authors: '<strong>Rui Qin<sup>#</sup></strong>, Hao Zhang, Weifeng Huang, Zhenglin Shao, Jinping Lei*'
+    conference_short: JBSD
+    conference: '<strong>Journal of Biomolecular Structure & Dynamics</strong>, 43(7), 3225-3241, 2023.'
+    pdf: http://dx.doi.org/10.1080/07391102.2023.2295974
+    code: https://github.com/sorui-qin/A2BAR_Antagonists_Design
+    image: ./assets/img/tbsd_a_2295974_uf0001_c.jpg
+    notes:
+    others:
+
+  - title: "Discovery of Novel Benzo[4,5]imidazo[1,2-a]pyrazin-1-amine-3-amide-one Derivatives as Anticancer Human A<sub>2A</sub> Adenosine Receptor Antagonists"
+    authors: 'Shuhao Liu<sup>#</sup>, Wen Ding<sup>#</sup>, Weifeng Huang<sup>#</sup>, Zhijing Zhang, Yinfeng Guo, Qiyi Zhang, Linna Wu, Yukai Li, <strong>Rui Qin</strong>, Jiahao Li, Taoda Shi*, Xiaolei Zhang*, Jinping Lei*, Wenhao Hu*'
+    conference_short: J. Med. Chem.
+    conference: '<strong>Journal of Medicinal Chemistry</strong>, 65(13), 8933-8947, 2022.'
+    pdf: https://doi.org/10.1021/acs.jmedchem.2c00101
+    code:
+    image: ./assets/img/images_medium_jm2c00101_0015.gif
+    notes:
+    others:

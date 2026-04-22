@@ -4,20 +4,17 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am currently a PhD student in the [College of Pharmaceutical Sciences](http://cpsen.zju.edu.cn/) at [Zhejiang University](https://www.zju.edu.cn/), specializing in Artificial Intelligence Pharmacy.
+
+I am honored to have joined [Prof. Tingjun Hou's research group](http://cadd.zju.edu.cn/en), where I am advised by both **Assoc. Prof. Yu Kang** and **Prof. Tingjun Hou**.
+
+Prior to this, I earned my BSc. degree from the [School of Pharmaceutical Sciences at Sun Yat-sen University](https://sps.sysu.edu.cn/), beginning my academic career with supervision by Assoc. Prof. Jinping Lei.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
-
-## News
-
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- Cheminformatics
+- Chemical language models
+- Generative models in drug discovery
+- AI for drug discovery
 
 {% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}
