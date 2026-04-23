@@ -1,4 +1,14 @@
-main:
+featured:
+
+  - title: "Revisiting Target-Aware de novo Molecular Generation with TarPass: Between Rational Design and Texas Sharpshooter"
+    authors: '<strong>Rui Qin<sup>#</sup></strong>, Zijie Chen<sup>#</sup>, Yurong Li, Meijing Fang, Longji Shen, Yilong Su, Odin Zhang, Qinghang Wang, Qun Su, Jike Wang*, Tingjun Hou*, Yu Kang*'
+    conference_short: Adv. Sci.
+    conference: '<strong>Advanced Science</strong>, e75411, 2026.'
+    pdf: https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.75411
+    code: https://github.com/sorui-qin/TarPass
+    image: ./assets/img/Tarpass.jpg
+    notes:
+    others: '<a href="https://chemrxiv.org/doi/10.26434/chemrxiv-2026-dhdqk" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">ChemRxiv</a>'
 
   - title: "Token-Mol 1.0: Tokenized drug design with large language model"
     authors: 'Jike Wang<sup>#</sup>, <strong>Rui Qin<sup>#</sup></strong>, Mingyang Wang<sup>#</sup>, Meijing Fang, Yangyang Zhang, Yuchen Zhu, Qun Su, Qiaolin Gou, Chao Shen, Odin Zhang, Zhenxing Wu, Dejun Jiang, Xujun Zhang, Huifeng Zhao, Jingxuan Ge, Zhourui Wu, Yu Kang*, Chang-Yu Hsieh*, Tingjun Hou*'
@@ -20,16 +30,6 @@ main:
     notes:
     others: '<a href="http://dx.doi.org/10.26434/chemrxiv-2024-0ckgt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">ChemRxiv</a>'
 
-  - title: "Revisiting Target-Aware de novo Molecular Generation with TarPass: Between Rational Design and Texas Sharpshooter"
-    authors: '<strong>Rui Qin<sup>#</sup></strong>, Zijie Chen<sup>#</sup>, Yurong Li, Meijing Fang, Longji Shen, Yilong Su, Odin Zhang, Qinghang Wang, Qun Su, Jike Wang*, Tingjun Hou*, Yu Kang*'
-    conference_short: Adv. Sci.
-    conference: '<strong>Advanced Science</strong>, Accepted, 2026.'
-    pdf: https://doi.org/10.26434/chemrxiv-2026-dhdqk
-    code: https://github.com/sorui-qin/TarPass
-    image: ./assets/img/Tarpass.jpg
-    notes:
-    others:
-
   - title: "Deep Learning-based Design and Screening of Benzimidazole-pyrazine Derivatives as Adenosine A<sub>2B</sub> Receptor Antagonists"
     authors: '<strong>Rui Qin<sup>#</sup></strong>, Hao Zhang, Weifeng Huang, Zhenglin Shao, Jinping Lei*'
     conference_short: JBSD
@@ -40,12 +40,15 @@ main:
     notes:
     others:
 
+other:
+  - title: "LaMGen: LLM-based 3D molecular generation for multi-target drug design"
+    authors: 'Qun Su<sup>#</sup>, Qiaolin Gou<sup>#</sup>, ... , <strong>Rui Qin</strong>, Huanxiang Liu*, Tingjun Hou*, Yu Kang*'
+    conference: '<strong>Nature Communications</strong>, 2026.'
+    pdf: https://www.nature.com/articles/s41467-026-71737-w
+
+
   - title: "Discovery of Novel Benzo[4,5]imidazo[1,2-a]pyrazin-1-amine-3-amide-one Derivatives as Anticancer Human A<sub>2A</sub> Adenosine Receptor Antagonists"
-    authors: 'Shuhao Liu<sup>#</sup>, Wen Ding<sup>#</sup>, Weifeng Huang<sup>#</sup>, Zhijing Zhang, Yinfeng Guo, Qiyi Zhang, Linna Wu, Yukai Li, <strong>Rui Qin</strong>, Jiahao Li, Taoda Shi*, Xiaolei Zhang*, Jinping Lei*, Wenhao Hu*'
-    conference_short: J. Med. Chem.
+    authors: 'Shuhao Liu<sup>#</sup>, Wen Ding<sup>#</sup>, Weifeng Huang<sup>#</sup>, ... , <strong>Rui Qin</strong>, ... , Taoda Shi*, Xiaolei Zhang*, Jinping Lei*, Wenhao Hu*'
     conference: '<strong>Journal of Medicinal Chemistry</strong>, 65(13), 8933-8947, 2022.'
     pdf: https://doi.org/10.1021/acs.jmedchem.2c00101
-    code:
-    image: ./assets/img/images_medium_jm2c00101_0015.gif
-    notes:
-    others:
+

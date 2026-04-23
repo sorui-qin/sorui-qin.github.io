@@ -1,9 +1,10 @@
 <h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
 <div class="publications">
+<h3 style="margin: 0 0 12px;">Feature Work</h3>
 <ol class="bibliography">
 
-{% for link in site.data.publications.main %}
+{% for link in site.data.publications.featured %}
 
 <li>
 <div class="pub-row">
@@ -22,7 +23,7 @@
       </div>
     <div class="links">
       {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
       {% endif %}
       {% if link.code %} 
       <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
@@ -42,6 +43,27 @@
     </div>
   </div>
 </div>
+</li>
+<br>
+
+{% endfor %}
+
+</ol>
+
+<h3 style="margin: 0 0 12px;">Other</h3>
+<ol class="bibliography">
+
+{% for link in site.data.publications.other %}
+
+<li>
+  <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+  <div class="author">{{ link.authors }}</div>
+  <div class="periodical"><em>{{ link.conference }}</em></div>
+  <div class="links">
+    {% if link.pdf %}
+    <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
+    {% endif %}
+  </div>
 </li>
 <br>
 
