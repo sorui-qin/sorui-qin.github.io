@@ -2,7 +2,7 @@
 
 <div class="publications">
 <h3 style="margin: 0 0 12px;">Feature Work</h3>
-<ol class="bibliography">
+<ol class="bibliography other">
 
 {% for link in site.data.publications.featured %}
 
@@ -22,9 +22,6 @@
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
     <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
-      {% endif %}
       {% if link.code %} 
       <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       {% endif %}
@@ -59,13 +56,7 @@
   <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
   <div class="author">{{ link.authors }}</div>
   <div class="periodical"><em>{{ link.conference }}</em></div>
-  <div class="links">
-    {% if link.pdf %}
-    <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
-    {% endif %}
-  </div>
 </li>
-<br>
 
 {% endfor %}
 
