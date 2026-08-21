@@ -12,9 +12,10 @@ Prior to this, I earned my BSc. degree from the [School of Pharmaceutical Scienc
 
 ## Research Interests
 
+- AI for drug discovery
 - Cheminformatics
 - Chemical language models
 - Generative models in drug discovery
-- AI for drug discovery
+- Financial investment in (AI-driven) innovative therapeutics
 
 {% include_relative _includes/publications.md %}
