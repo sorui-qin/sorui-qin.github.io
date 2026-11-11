@@ -3,19 +3,17 @@ layout: paper
 title: 论文阅读
 permalink: /papers/
 ---
-<h1>论文阅读</h1>
-<p>AI for Science、计算生物学与机器学习论文的技术解读。</p>
 {% assign readings = site.posts | where: "category", "paper-reading" %}
 {% assign previous_month = "" %}
 {% for post in readings %}
   {% assign current_month = post.date | date: "%Y年%m月" %}
   {% if current_month != previous_month %}
     {% unless forloop.first %}</ul>{% endunless %}
-    <h2>{{ current_month }}</h2>
+    <h2 id="month-{{ post.date | date: '%Y-%m' }}">{{ current_month }}</h2>
     <ul class="paper-list">
     {% assign previous_month = current_month %}
   {% endif %}
-  <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a><br><span class="date">{{ post.date | date: "%Y-%m-%d" }}</span></li>
+  <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a><time class="date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%Y-%m-%d" }}</time></li>
   {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
 

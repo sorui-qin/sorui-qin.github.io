@@ -1,0 +1,36 @@
+body {
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+section h2 {
+  line-height: 1.25;
+}
+
+@media screen and (min-width: 961px) {
+  .wrapper {
+    width: min(1100px, calc(100% - 64px));
+  }
+
+  header {
+    width: 250px;
+  }
+
+  section {
+    width: calc(100% - 310px);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    font-size: 17px;
+  }
+
+  header {
+    padding-bottom: 12px;
+  }
+}

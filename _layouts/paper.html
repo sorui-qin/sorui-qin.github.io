@@ -3,25 +3,45 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | escape }} | 论文阅读</title>
+  <title>{{ page.title | escape }} | {% if page.date %}论文阅读{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description | escape }}">
   <link rel="stylesheet" href="{{ '/assets/css/paper-reading.css' | relative_url }}">
+  {% if page.date %}<script defer src="{{ '/assets/js/paper-toc.js' | relative_url }}"></script>{% endif %}
   <script>window.MathJax = {tex: {inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']]}, chtml: {matchFontHeight: false}};</script>
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
   <header class="site-header">
     <div class="site-header__inner">
-      <a class="brand" href="{{ '/papers/' | relative_url }}"><span class="brand__mark" aria-hidden="true">R</span><span>论文阅读<small>RUI QIN · RESEARCH NOTES</small></span></a>
+      <a class="brand" href="{{ '/papers/' | relative_url }}">论文阅读</a>
       <nav aria-label="主导航"><a href="{{ '/' | relative_url }}">个人主页</a><a href="{{ '/papers/' | relative_url }}">全部文章 <span aria-hidden="true">↗</span></a></nav>
     </div>
   </header>
-  <main class="page-shell">
-    <div class="page-meta"><span class="page-meta__label">{% if page.date %}研究解读{% else %}阅读档案{% endif %}</span>{% if page.date %}<span class="page-meta__divider" aria-hidden="true"></span><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%Y.%m.%d' }}</time>{% endif %}</div>
+  <main class="page-shell page-shell--article">
+    {% if page.date %}
+    <aside class="paper-toc" hidden><details open><summary>目录</summary><ol id="paper-toc-list"></ol></details></aside>
+    {% else %}
+    <aside class="paper-toc" aria-label="月份导航">
+      <details open><summary>目录</summary><ol>
+        {% assign readings = site.posts | where: "category", "paper-reading" %}
+        {% assign previous_month = "" %}
+        {% for post in readings %}
+          {% assign current_month = post.date | date: "%Y-%m" %}
+          {% if current_month != previous_month %}
+            <li><a href="#month-{{ current_month }}">{{ post.date | date: "%Y年%m月" }}</a></li>
+            {% assign previous_month = current_month %}
+          {% endif %}
+        {% endfor %}
+      </ol></details>
+    </aside>
+    {% endif %}
+    <div class="page-body">
+    {% if page.date %}<div class="page-meta"><span class="page-meta__label">研究解读</span><span class="page-meta__divider" aria-hidden="true"></span><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%Y.%m.%d' }}</time></div>{% endif %}
     <article class="reading-content{% unless page.date %} reading-content--index{% endunless %}">
       {{ content }}
     </article>
-    <footer class="page-footer"><span>RUI QIN <span aria-hidden="true">/</span> 论文阅读</span><a href="{{ '/papers/' | relative_url }}">返回文章目录 ↑</a></footer>
+    <footer class="page-footer"><a href="{{ '/papers/' | relative_url }}">返回文章目录 ↑</a></footer>
+    </div>
   </main>
 </body>
 </html>
