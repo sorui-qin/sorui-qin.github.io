@@ -1,0 +1,14 @@
+---
+layout: paper
+title: 论文阅读
+permalink: /papers/
+---
+<h1>论文阅读</h1>
+<p>AI for Science、计算生物学与机器学习论文的技术解读。</p>
+<ul class="paper-list">
+  {% assign readings = site.posts | where: "category", "paper-reading" %}
+  {% for post in readings %}
+  <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a><br><span class="date">{{ post.date | date: "%Y-%m-%d" }}</span></li>
+  {% endfor %}
+</ul>
+
