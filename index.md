@@ -18,9 +18,5 @@ Prior to this, I earned my BSc. degree from the [School of Pharmaceutical Scienc
 - Generative models in drug discovery
 - Financial investment in (AI-driven) innovative therapeutics
 
-## 论文阅读
-
-[浏览论文技术解读 →](/papers/)
-
 {% include_relative _includes/publications.md %}
 

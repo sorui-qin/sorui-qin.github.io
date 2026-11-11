@@ -5,35 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | escape }} | 论文阅读</title>
   <meta name="description" content="{{ page.description | default: site.description | escape }}">
-  <style>
-    :root { color-scheme: light dark; }
-    body { margin: 0; color: #292c32; background: #faf9f6; font: 17px/1.85 -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
-    .shell { max-width: 800px; margin: auto; padding: 2rem 1.5rem 5rem; }
-    nav { border-bottom: 1px solid #dedbd4; padding-bottom: 1rem; font-size: .9rem; }
-    a { color: #345c80; text-decoration-thickness: 1px; text-underline-offset: 3px; }
-    h1,h2,h3 { line-height: 1.35; color: #242a31; }
-    h1 { font-size: clamp(1.8rem, 5vw, 2.65rem); margin-top: 2.2rem; }
-    h2 { margin-top: 2.3rem; font-size: 1.42rem; }
-    h3 { margin-top: 1.7rem; font-size: 1.12rem; }
-    img { max-width: 100%; height: auto; }
-    pre { overflow-x: auto; padding: 1rem; background: #f0efec; }
-    code { overflow-wrap: anywhere; }
-    blockquote { margin-left: 0; border-left: 3px solid #a8bac9; padding-left: 1.1rem; color: #5a636c; }
-    table { display: block; overflow-x: auto; border-collapse: collapse; }
-    th, td { padding: .4rem .65rem; border: 1px solid #d5d7d8; }
-    .date { color: #717780; font-size: .9rem; }
-    .paper-list { list-style: none; padding: 0; }
-    .paper-list li { padding: 1rem 0; border-bottom: 1px solid #dedbd4; }
-    .paper-list a { font-weight: 600; }
-    @media (prefers-color-scheme: dark) { body { background: #171a1d; color: #e1e3e4; } h1,h2,h3 { color: #f5f5f5; } a { color: #a8c9e3; } nav,.paper-list li { border-color: #444; } pre { background: #25292c; } blockquote,.date { color: #b6bfc6; } }
-  </style>
-  <script>window.MathJax = {tex: {inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']]}, svg: {fontCache: 'global'}};</script>
+  <link rel="stylesheet" href="{{ '/assets/css/paper-reading.css' | relative_url }}">
+  <script>window.MathJax = {tex: {inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']]}, chtml: {matchFontHeight: false}};</script>
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-  <main class="shell">
-    <nav><a href="{{ '/' | relative_url }}">个人主页</a> · <a href="{{ '/papers/' | relative_url }}">论文阅读</a></nav>
-    {{ content }}
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="{{ '/papers/' | relative_url }}"><span class="brand__mark" aria-hidden="true">R</span><span>论文阅读<small>RUI QIN · RESEARCH NOTES</small></span></a>
+      <nav aria-label="主导航"><a href="{{ '/' | relative_url }}">个人主页</a><a href="{{ '/papers/' | relative_url }}">全部文章 <span aria-hidden="true">↗</span></a></nav>
+    </div>
+  </header>
+  <main class="page-shell">
+    <div class="page-meta"><span class="page-meta__label">{% if page.date %}研究解读{% else %}阅读档案{% endif %}</span>{% if page.date %}<span class="page-meta__divider" aria-hidden="true"></span><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%Y.%m.%d' }}</time>{% endif %}</div>
+    <article class="reading-content{% unless page.date %} reading-content--index{% endunless %}">
+      {{ content }}
+    </article>
+    <footer class="page-footer"><span>RUI QIN <span aria-hidden="true">/</span> 论文阅读</span><a href="{{ '/papers/' | relative_url }}">返回文章目录 ↑</a></footer>
   </main>
 </body>
 </html>
