@@ -52,7 +52,7 @@ nav a:hover { color: var(--accent); }
 .reading-content > p:has(> img:only-child) { text-align: center; }
 .reading-content :not(pre) > code { padding: .12em .32em; background: var(--soft); color: var(--accent); font-size: .88em; overflow-wrap: anywhere; }
 .reading-content pre { overflow-x: auto; padding: 20px; border: 1px solid var(--line); background: var(--soft); line-height: 1.65; font-size: .84em; }
-.reading-content table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; font-size: .9em; }
+.reading-content table { display: block; width: max-content; max-width: 100%; margin-inline: auto; overflow-x: auto; border-collapse: collapse; font-size: .9em; }
 .reading-content th, .reading-content td { padding: 10px 14px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
 .reading-content th { background: var(--soft); color: var(--ink); }
 .reading-content mjx-container[display="true"] { max-width: 100%; overflow-x: auto; overflow-y: hidden; padding: 8px 0; }
